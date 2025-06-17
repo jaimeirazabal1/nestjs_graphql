@@ -1,0 +1,33 @@
+# Crear un usuario
+mutation {
+  createUser(createUserInput: {
+    name: "Juan Pérez"
+    email: "juan@example.com"
+    password: "123456"
+  }) {
+    id
+    name
+    email
+    createdAt
+  }
+}
+
+# Obtener todos los usuarios
+query {
+  users {
+    id
+    name
+    email
+    createdAt
+  }
+}
+
+# Obtener un usuario específico
+query {
+  user(id: "user-id") {
+    id
+    name
+    email
+    createdAt
+  }
+}
