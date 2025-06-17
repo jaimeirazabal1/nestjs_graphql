@@ -160,7 +160,7 @@ Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más det
 
 ## 👥 Autores
 
-- Tu Nombre - [@tutwitter](https://twitter.com/tutwitter)
+- Jaime Irazabal -
 
 ## 🙏 Agradecimientos
 
